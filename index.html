@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="An implementation of a Simon's Game">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="Nikolai Riedel">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <script src="jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous" defer></script>
+  <script src="jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous" defer></script>
+
+  <link rel="stylesheet" href="bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous" defer>
+  <script src="tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous" defer></script>
+  <script src="bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous" defer></script>
+
+  <script src="simonGame.js" async></script>
+  <link rel='stylesheet' href='style.css' async>
+
+</head>
+
+<body class='d-flex justify-content-center'>
+
+	<div class="container d-flex flex-column justify-content-center align-items-center">
+
+		<div id="islandMiddle">
+			<div id="wrapperButtons" class="d-flex flex-column justify-content-center align-items-center">
+				<button id="startGame" type="text">Start Game</button>
+				<span id="strictWrapper">Strict Mode</span>
+				<span id="toggleStrictMode" class="d-flex align-items-center"><span id="strictModeBlock"></span></span>
+				<p id="counts" class="text-center">1</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-6 clickableField" id="greenField">
+			
+			</div>
+
+			<div class="col-6 clickableField" id="redField">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-6 clickableField" id="blueField">
+			
+			</div>
+
+			<div class="col-6 clickableField" id="yellowField">
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

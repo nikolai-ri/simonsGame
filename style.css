@@ -1,0 +1,86 @@
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.clickableField{
+  		display: inline-block;
+  		height: 200px;
+  		width: 200px;
+}
+
+#greenField{
+    background-color: #447575;
+    border-radius: 200px 0px 0px 0px;
+}
+
+#redField{
+    background-color: #8B112E;
+    border-radius: 0px 200px 0px 0px;
+}
+
+#blueField{
+    background-color: #09458B;
+    border-radius: 0px 0px 0px 200px;
+}
+
+#yellowField{
+    background-color: #D84D29;
+    border-radius: 0px 0px 200px 0px;
+}
+
+.animationClass{
+    opacity: 0.1;
+}
+
+.gameOverClass{
+    background-color: black!important;
+}
+
+#islandMiddle{
+    position: absolute;
+    width: 280px;
+    height:280px;
+    border-radius: 140px;
+    background-color: black;
+    z-index: 20;
+}
+
+#wrapperButtons{
+    height: 100%;
+    width: 100%;
+    border-radius: 140px;
+}
+
+#toggleStrictMode{
+    display:inline-block;
+    background-color: lightgrey;
+    height: 13px;
+    width: 60px;
+    border-radius: 2px;
+}
+
+#strictModeBlock{
+    display: inline-block;
+    background-color: green;
+    width: 10px;
+    height: 10px;
+}
+
+#strictWrapper{
+    color: white;
+
+}
+
+#strictWrapper:hover{
+    cursor:pointer;
+}
+
+#counts{
+    display:inline-block;
+    background-color: white;
+    margin-top: 5px;
+    height: 26px;
+    width: 50px;
+    border-radius: 10px;
+}
